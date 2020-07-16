@@ -23,7 +23,7 @@
   <div class="container-fluid final-footer">
     <div class="row">
       <div class="col-lg-8">
-        <p> © 2020 University of Florida Conference Department | <a href="mailto:cehancock@mail.ufl.edu">Website Feedback</a></p>
+        <p> © <?php echo date("Y"); ?> University of Florida Conference Department | <a href="mailto:cehancock@mail.ufl.edu">Website Feedback</a></p>
       </div>
       <div class="col-lg-2">
         <a href="https://conferences.aa.ufl.edu/" target="_blank"><img alt="PWD Logo" src="https://pwd.aa.ufl.edu/researchre-pro/wp-content/uploads/sites/8/2020/07/uf-conference-white.png"/></a>
