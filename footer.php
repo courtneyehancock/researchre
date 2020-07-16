@@ -21,7 +21,7 @@
   </div>
 
   <div class="container-fluid final-footer">
-    <div class="row">
+    <div class="row d-flex align-items-center">
       <div class="col-lg-8">
         <p> © <?php echo date("Y"); ?> University of Florida Conference Department | <a href="mailto:cehancock@mail.ufl.edu">Website Feedback</a></p>
       </div>
