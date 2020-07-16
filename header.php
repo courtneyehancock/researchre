@@ -28,13 +28,6 @@
           }
           ?>
         </div>
-
-        <div>
-          <!--Navigation-->
-          <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text">Community Engagement</p>
-          </div></a>
-        </div>
       </div>
 
       <div class="col-md-7" id="site-nav">
