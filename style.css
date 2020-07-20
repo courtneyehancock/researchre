@@ -403,7 +403,7 @@ footer ul {
 
 footer li a {
   text-decoration: none;
-  color: #fff;
+  color: #001b3d;
   transition: 0.2s;
 }
 
@@ -413,7 +413,7 @@ footer li a:hover {
 }
 
 .widget-footer.widget-right a {
-  color: #fff;
+  color: #001b3d;
 }
 .widget-footer.widget-right a:hover {
   color: #ff590e;
