@@ -5,15 +5,15 @@
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-1">
         <!--Middle Footer-->
         <?php dynamic_sidebar('middle-footer'); ?>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-3">
         <!--Middle Right Footer-->
         <?php dynamic_sidebar('middle-right-footer'); ?>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <!--right footer-->
         <?php dynamic_sidebar('right-footer'); ?>
       </div>
