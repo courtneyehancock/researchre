@@ -383,6 +383,10 @@ footer {
 	position:absolute;
 }
 
+.final-footer p {
+  color:#ffffff;
+}
+
 .final-footer img {
 	width: 100%;
 }
