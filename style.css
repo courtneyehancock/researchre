@@ -158,7 +158,7 @@ a.aa:hover {
 .btn {
     border: 3px solid #ff590e;
     font-family: 'GentonaLight' !important;
-    color: #ffffff;
+    color: #ffffff !important;
     border-radius: 0;
 		background-color: #ff590e;
     box-shadow: 1px 5px 8px rgba(0,0,0,.1);
@@ -168,7 +168,7 @@ a.aa:hover {
 .btn:hover {
   border: 3px solid #ffffff !important;
   background-color: #ffffff;
-  color: #ff590e;
+  color: #ff590e !important;
 }
 
 .p-font {
