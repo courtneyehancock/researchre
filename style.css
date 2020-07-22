@@ -181,6 +181,10 @@ a.aa:hover {
   padding-bottom:500px;
 }*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 .main-content{
 /*  min-height:190vh;*/
   background:#fff;
