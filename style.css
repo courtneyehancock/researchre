@@ -91,21 +91,21 @@
 h1 {
   font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
-	font-size: 30px;
+	font-size: 2.5em;
 	font-weight:bold;
 }
 
 h2 {
   font-family: 'QuadonMedium', serif !important;
   color: #00529b;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	letter-spacing:.8px;
 }
 
 h3 {
   font-family: 'QuadonThin', serif !important;
   color: #00529b;
-	font-size: 1em;
+	font-size: 1.3em;
 	font-weight:bold;
 	letter-spacing:1.5px;
 }
@@ -113,7 +113,7 @@ h3 {
 h4 {
   font-family: 'GentonaLight', sans-serif !important;
   color: #00529b;
-	font-size: 20px;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -134,7 +134,7 @@ p,
 li {
   font-family: 'GentonaLight', sans-serif !important;
 	color: #212121;
-	font-size: 16px;
+	font-size: 1.1em;
 }
 
 
