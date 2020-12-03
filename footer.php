@@ -26,7 +26,7 @@
         <p> © <?php echo date("Y"); ?> University of Florida Conference Department | <a href="mailto:cehancock@mail.ufl.edu">Website Feedback</a></p>
       </div>
       <div class="col-lg-2">
-        <a href="https://conferences.aa.ufl.edu/" target="_blank"><img alt="PWD Logo" src="https://pwd.aa.ufl.edu/researchre-pro/wp-content/uploads/sites/8/2020/07/uf-conference-white-update.png"/></a>
+        <a href="https://conferences.aa.ufl.edu/" target="_blank"><img alt="PWD Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2020/12/conferences-white.png"/></a>
       </div>
       <div class="col-lg-2">
         <a href="https://www.ufl.edu/" target="_blank"><img alt="UF Logo" src="https://cwde.aa.ufl.edu/wp-content/uploads/sites/2/2020/05/UF_Signature_white.png"/></a>
