@@ -29,7 +29,7 @@
 
   -----------------------------------------*/
 
-  add_action('wp_enqueue_scripts', 'custom_theme_scripts');
+  /*add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
   if (!is_admin()) add_action( 'wp_enqueue_scripts', 'add_jquery_to_my_theme' );
 
@@ -45,7 +45,7 @@
    Load Isotop
 
   -----------------------------------------*/
-  if (!is_admin()) add_action( 'wp_enqueue_scripts', 'load_isotope' );
+/*  if (!is_admin()) add_action( 'wp_enqueue_scripts', 'load_isotope' );
 
   function load_isotope() {
       // script will load in footer
@@ -56,7 +56,7 @@
   Add a portfolio custom post type
 
   -----------------------------------------*/
-  add_action('init', 'create_redvine_portfolio');
+/*  add_action('init', 'create_redvine_portfolio');
   function create_redvine_portfolio()
   {
     $labels = array(
