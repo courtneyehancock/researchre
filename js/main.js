@@ -1,6 +1,5 @@
 
-/*******Filtering*******/
-
+/*
 // init Isotope
   var $grid = $('.img-grid').isotope({
     itemSelector: '.img-container',
@@ -33,10 +32,11 @@
   });
 
 /*******Popup Image Gallary in Porfolio*******/
-
+/*
 $('.popup-gallery').magnificPopup({
   type: 'image',
   gallery:{
     enabled:true
   }
 });
+*/
