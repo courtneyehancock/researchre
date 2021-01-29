@@ -23,10 +23,41 @@
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
   }
+  /*-------------------------------------
+
+  Adding JQuery
+
+  -----------------------------------------*/
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
+  if (!is_admin()) add_action( 'wp_enqueue_scripts', 'add_jquery_to_my_theme' );
 
+  function add_jquery_to_my_theme() {
+      // scrap WP jquery and register from google cdn - load in footer
+      wp_deregister_script('jquery');
+      wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js", false, null, true );
+      // load jquery
+      wp_enqueue_script('jquery');
+  }
+  /*-------------------------------------
+
+   Load Isotop
+
+  -----------------------------------------*/
+  if (!is_admin()) add_action( 'wp_enqueue_scripts', 'load_isotope' );
+
+  function load_isotope() {
+      // script will load in footer
+  	wp_enqueue_script( 'isotope-js',  get_stylesheet_directory_uri() . '/path/to/jquery.isotope.min.js', true );
+  }
+
+
+  /*-------------------------------------
+
+   Widgets
+
+  -----------------------------------------*/
   //Widget Areas
   function blank_widgets_init() {
 
