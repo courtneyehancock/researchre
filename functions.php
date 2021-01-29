@@ -24,11 +24,9 @@
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
   }
 
-  /*-------------------------------------
+  add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
-   Widgets
 
-  -----------------------------------------*/
   //Widget Areas
   function blank_widgets_init() {
 
@@ -111,4 +109,6 @@
 
   //Adds featured imgs to posts
     add_theme_support('post-thumbnails');
+
+
   ?>
