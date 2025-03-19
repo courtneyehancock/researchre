@@ -16,6 +16,10 @@
 	src: url('fonts/GentonaBook_Italic.ttf') format('truetype');
 }
 @font-face {
+	font-family: 'GentonaBold';
+	src: url('fonts/GentonaTT-Bold.ttf') format('truetype');
+}
+@font-face {
 	font-family: 'GentonaBook';
 	src: url('fonts/GentonaBook.ttf') format('truetype');
 }
