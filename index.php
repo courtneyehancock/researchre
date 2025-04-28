@@ -1,12 +1,15 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-    <div class="internal-div">
-      <h1 style="color: #00529b; font-size: 2em; text-align: right; margin-right: 2em;">OPWD INSIDER</h1>
-
-      <hr />
-
-    </div>
+      <div class="breadcrumbs-container">
+<div class="container">
+<?php
+if ( function_exists('yoast_breadcrumb') ) {
+  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+}
+?>
+</div>
+</div>
   <div class="container">
     <div class="row justify-content-center">
     <?php
