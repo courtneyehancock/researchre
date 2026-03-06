@@ -11,7 +11,6 @@
 
 
 /* -- Universal Styling -- */
-/* -- Universal Styling -- */
 @font-face {
 	font-family: 'Anybody-Black';
 	src: url('fonts/Anybody-Black.ttf') format('truetype');
@@ -133,87 +132,91 @@ html {
 }
 
 h1 {
-  font-family: 'Anybody_Expanded', sans-serif !important;
-  color: #00529b;
+  font-family: 'Anybody_Expanded-Bold', sans-serif !important;
+  color: #0021a5;
 	font-size: 1.7em;
 	font-weight:bold;
 }
 
 h2 {
-  font-family: 'Anybody_Expanded-Light', serif !important;
-  color: #00529b;
+  font-family: 'Anybody_Expanded', serif !important;
+  color: #0021a5;
 	font-size: 1.5em;
 	letter-spacing:.8px;
 }
 
 h3 {
   font-family: 'Aptos-Black', serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.3em;
 }
 
 h4 {
-  font-family: 'Aptos', sans-serif !important;
-  color: #00529b;
-	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+  font-family: 'Aptos-Bold', sans-serif !important;
+  color: #0021a5;
+	font-size: 1.25rem;
 }
 
 h5 {
   font-family: 'Aptos-Bold', sans-serif !important;
-  color: #00529b;
-	font-size: 18px;
+  color: #0021a5;
+	font-size: 1.125rem;
 }
 
 h6 {
   font-family: 'Aptos-Bold-Italic', sans-serif !important;
-  color: #00529b;
-	font-size: 18px;
+  color: #0021a5;
+	font-size: 1.125rem;
 }
 
 p,
 li {
   font-family: 'Aptos-Light', sans-serif !important;
 	color: #212121;
-	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 10px;
 }
 
 
 a {
-	color: #ff590e;
+  color: #0021a5;
+	text-decoration: underline;
 }
 
 a:hover {
-	color: #00529b;
-	text-decoration: none;
+	color: #002657;
+	font-weight; bolder;
 }
 
 a.aa {
-	color:#ff590e;
+	color:#fa4616;
 }
 
 a.aa:hover {
-	color:#00529b;
+	color:#fff;
 }
 
 .btn {
-    border: 3px solid #ff590e;
+    border: none !important;
     font-family: 'Aptos-Bold' !important;
-    color: #ffffff !important;
-    border-radius: 0;
-		background-color: #ff590e;
-    box-shadow: 1px 5px 8px rgba(0,0,0,.1);
-	text-transform:capitalize;
-    text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
+    color: #fff;
+		background-color: #0021a5;
+	border-radius: 5px;
+		letter-spacing:0.05rem;
+		padding: 1rem !important;
 }
-
 .btn:hover {
-  border: 3px solid #ffffff !important;
-  background-color: #ffffff;
-  color: #ff590e !important;
+  border: none;
+  color: #fff;
+	background-color: #002657;
 }
 
+ul li {
+	list-style:none !important;
+}
 
 html {
 	scroll-behavior: smooth;
