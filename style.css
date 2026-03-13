@@ -132,14 +132,14 @@ html {
 }
 
 h1 {
-  font-family: 'Anybody_Expanded-Bold', sans-serif !important;
+  font-family: 'Anybody-Bold', sans-serif !important;
   color: #0021a5;
 	font-size: 1.7em;
 	font-weight:bold;
 }
 
 h2 {
-  font-family: 'Anybody_Expanded', serif !important;
+  font-family: 'Anybody-Regular', serif !important;
   color: #0021a5;
 	font-size: 1.5em;
 	letter-spacing:.8px;
@@ -164,7 +164,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Aptos-Bold-Italic', sans-serif !important;
+  font-family: 'Aptos-BoldItalic', sans-serif !important;
   color: #0021a5;
 	font-size: 1.125rem;
 }
